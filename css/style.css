@@ -1,0 +1,77 @@
+body {
+    background-color: #f4f7fa; /* Couleur de fond douce */
+    font-family: 'Arial', sans-serif; /* Police moderne */
+    color: #333; /* Couleur du texte */
+    margin: 0; /* Suppression des marges par défaut */
+    padding: 20px; /* Ajout de padding global */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Ajout d'une couleur de fond plus douce */
+}
+
+h1 {
+    color: #4a4a4a; /* Couleur du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 30px; /* Marge en bas */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Ombre légère pour le texte */
+}
+
+.form-container {
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre pour le conteneur */
+    padding: 20px; /* Padding */
+    margin-bottom: 30px; /* Marge en bas */
+    text-align: center; /* Centrer le contenu */
+    display: flex; /* Utilisation de flexbox pour un meilleur alignement */
+    flex-direction: column; /* Alignement vertical */
+    align-items: center; /* Centrer les éléments */
+}
+
+#country-flag {
+    display: none; /* Masquer le conteneur du drapeau par défaut */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    max-width: 100px; /* Largeur maximale pour le drapeau */
+    height: auto; /* Hauteur automatique pour garder les proportions */
+}
+
+#country-info {
+    display: none; /* Masquer le conteneur d'informations par défaut */
+    background-color: #ffffff; /* Fond blanc pour le conteneur d'informations */
+    border: 1px solid #ced4da; /* Bordure légère */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre pour le conteneur */
+    padding: 20px; /* Ajout de padding */
+    margin-top: 20px; /* Marge en haut */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 20px;
+    display: block; /* Affiche le conteneur d'informations après la recherche */
+}
+
+#map {
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 300px; /* Hauteur de la carte */
+    margin-top: 20px; /* Marge en haut */
+    border-radius: 10px; /* Coins arrondis pour la carte */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre pour la carte */
+    overflow: hidden; /* Masquer le débordement */
+}
+
+button {
+    background-color: #007bff; /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Arrondi des coins des boutons */
+    padding: 10px 20px; /* Ajout de padding */
+    cursor: pointer; /* Changement du curseur */
+    transition: background-color 0.3s; /* Transition pour le survol */
+    margin: 15px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
+
